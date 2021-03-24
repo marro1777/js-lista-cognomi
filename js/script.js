@@ -12,7 +12,7 @@ var posizioneUmana;
 
 for (i = 0; i < cognomiOrdinati.length; i++) {
   if (nuovoCognome == cognomiOrdinati[i]) {
-    posizioneUmana= ++i;
+    posizioneUmana= i++;
     console.log(posizioneUmana);
   }
 }
